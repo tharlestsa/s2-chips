@@ -2,6 +2,8 @@
 
 This script efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. The script employs `ray` for parallel processing, ensuring fast extraction for multiple coordinates and dates. Each image chip is then saved as a JPEG file.
 
+![Layer Grid Plugin ](./chips.gif)
+
 ## Features
 
 - **Parallel Processing**: Utilizes the `ray` library for concurrent extraction.
